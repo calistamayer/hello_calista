@@ -3,3 +3,54 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: seashell;
+    color: navy;
+}
+/* Header Style Start */
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+header a {
+    text-decoration: none;
+    color: navy;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    margin: 0 10px;
+}
+/* Header Style End */
+/* Hero Style Start */
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    display: flex;
+    background-size: cover;
+    height: 400px;
+    flex: 1;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.hero h2 {
+    color: seashell;
+    font-family: 'Courier New', Courier, monospace;
+}
+.hero img {
+    width: 20%;
+    margin: auto 0;
+}
+/* Hero Style End */

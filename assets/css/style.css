@@ -73,7 +73,51 @@ header nav ul li a {
     border-right: 3px solid navy;
     width: 25%;
 }
+
+
+/* application grid style start */
+.application-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 600px;
+    grid-gap: 10px;
+}
+.app-tile {
+    padding: 20px;
+}
+.caption {
+    background-color: seashell;
+    color: navy;
+    width: fit-content;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+}
 .run-buddy {
     background-image: url(../images/tile-1-Run-Buddy.png);
+    grid-column: 1/3;
+    grid-row: 1/3;
 }
-/* Content Style End */
+.run-buddy .caption {
+    font-size: larger;
+}
+.placeholder1 {
+    background-image: url(../images/placeholder-1.jpg);
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.placeholder2 {
+    background-image: url(../images/placeholder-2.jpg);
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.placeholder3 {
+    background-image: url(../images/placeholder-3.jpg);
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.placeholder4 {
+    background-image: url(../images/placeholder-4.jpg);
+    grid-column: 2/3;
+    grid-row: 3/4;
+}

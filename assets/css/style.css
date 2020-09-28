@@ -149,3 +149,18 @@ header nav ul li a {
     grid-column: 2/3;
     grid-row: 3/4;
 }
+
+/* Media Query for Smaller Desktop Screens and Smaller */
+@media screen and(max-width: 980px) {
+
+}
+
+/* Media Query for Tablets and Smaller */
+@media screen and (max-width: 780px) {
+
+}
+
+/* Media Query for Mobile Phones and Smaller */
+@media screen and (max-width: 575px) {
+    
+}

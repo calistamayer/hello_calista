@@ -12,7 +12,7 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 20px 35px;
+    padding: 25px 35px;
     font-family: 'Courier New', Courier, monospace;
 }
 header a {
@@ -32,7 +32,7 @@ header nav ul li a {
     font-size: 1.55vw;
     margin: 0 10px;
 }
-/* Header Style End */
+
 /* Hero Style Start */
 .hero {
     background-image: url("../images/hero-bg.jpg");
@@ -73,6 +73,9 @@ header nav ul li a {
     border-right: 3px solid navy;
     width: 25%;
 }
+.content a {
+    text-decoration: none;
+}
 
 
 /* application grid style start */
@@ -82,17 +85,20 @@ header nav ul li a {
     grid-template-rows: repeat(3, 1fr);
     width: 600px;
     grid-gap: 10px;
+    justify-items: stretch;
+    align-items: stretch;
 }
 .app-tile {
     padding: 20px;
 }
 .caption {
-    background-color: seashell;
-    color: navy;
+    background-color: #ffd9eefc;
+    color: #07070c;
     width: fit-content;
     font-family: 'Courier New', Courier, monospace;
     padding: 5px;
 }
+
 .run-buddy {
     background-image: url(../images/tile-1-Run-Buddy.png);
     grid-column: 1/3;

@@ -10,5 +10,4 @@ HTML, CSS, flexbox, CSS grid
 https://calistamayer.github.io/hello_calista/
 
 ## Screenshot
-![Calista Mayer Portfolio webpage]
-(https://tinyurl.com/yxd7d3nd)
+![Calista Mayer Portfolio webpage](https://tinyurl.com/yxd7d3nd)

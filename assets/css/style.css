@@ -48,9 +48,32 @@ header nav ul li a {
 .hero h2 {
     color: seashell;
     font-family: 'Courier New', Courier, monospace;
+    display: block;
+    text-align: right;
+    width: 100%;
+    padding: 100px 20px 0 0;
+}
+.hero p {
+    display: block;
+    width: 100%;
+    text-align: right;
+    padding: 0 20px 0 0;
 }
 .hero img {
-    width: 20%;
-    margin: auto 0;
+    width: 222px;
+    height: 222px;
 }
 /* Hero Style End */
+/* Content Style Start */
+.content {
+    display: flex;
+}
+.content h2 {
+    font-family: 'Courier New', Courier, monospace;
+    border-right: 3px solid navy;
+    width: 25%;
+}
+.run-buddy {
+    background-image: url(../images/tile-1-Run-Buddy.png);
+}
+/* Content Style End */

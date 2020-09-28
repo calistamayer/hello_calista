@@ -62,6 +62,7 @@ header nav ul li a {
 .hero img {
     width: 222px;
     height: 222px;
+    border-radius: 11px;
 }
 /* Hero Style End */
 

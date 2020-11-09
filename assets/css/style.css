@@ -130,8 +130,8 @@ header nav ul li a {
 .run-buddy .caption {
     font-size: larger;
 }
-.placeholder1 {
-    background-image: url(../images/placeholder-1.jpg);
+.living-room {
+    background-image: url(../images/fireplace.jpg);
     grid-column: 3/4;
     grid-row: 1/2;
 }

@@ -135,6 +135,9 @@ header nav ul li a {
     grid-column: 3/4;
     grid-row: 1/2;
 }
+.adventure-series {
+    background-image: url(../images/The-Adventure-Series.png)
+}
 .placeholder2 {
     background-image: url(../images/placeholder-2.jpg);
     grid-column: 3/4;

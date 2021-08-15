@@ -138,6 +138,12 @@ header nav ul li a {
 .adventure-series {
     background-image: url(../images/The-Adventure-Series.png)
 }
+.must-fit-pets {
+    background-image: url(../images/Must-Fit-Pets.png)
+}
+.deep-thoughts {
+    background-image: url(../images/Deep-Thoughts.png)
+}
 .placeholder2 {
     background-image: url(../images/placeholder-2.jpg);
     grid-column: 3/4;
